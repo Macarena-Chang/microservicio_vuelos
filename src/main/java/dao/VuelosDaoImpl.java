@@ -19,7 +19,7 @@ public class VuelosDaoImpl implements VuelosDao {
 	}
 	@Override
 	public Vuelo devolverVuelo(int idVuelo) {
-		return vuelos.findById(idVuelo).orElse(null);
+		return vuelos.findById(idVuelo).orElse(null); //asi si no devuelve nada no se produzca excepcion
 	}
 	
 	@Override

@@ -6,10 +6,10 @@ import model.Vuelo;
 
 public interface VuelosDao {
 	
-	public List <Vuelo> devolverVuelos();
+	public List <Vuelo> devolverVuelos(); //devolver vuelos existentes
 	
-	public Vuelo devolverVuelo( int idvuelo);
+	public Vuelo devolverVuelo( int idvuelo);//devolver vuelos x identificador
 	
-	public void actualizarVuelo(Vuelo vuelo);
+	public void actualizarVuelo(Vuelo vuelo); //actualizar determinadovuelo
 
 }
